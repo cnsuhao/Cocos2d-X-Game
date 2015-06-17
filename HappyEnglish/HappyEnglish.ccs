@@ -1,0 +1,96 @@
+<Solution>
+  <PropertyGroup Name="HappyEnglish" Version="2.2.9.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene_English.csd" Type="Scene" />
+        <Folder Name="Button">
+          <Image Name="1.PNG" />
+          <Image Name="1_01.png" />
+          <Image Name="1_02.png" />
+          <Image Name="2.png" />
+          <Image Name="2_01.PNG" />
+          <Image Name="2_02.PNG" />
+          <Image Name="3.png" />
+          <Image Name="3_01.PNG" />
+          <Image Name="3_02.PNG" />
+          <Image Name="4.png" />
+          <Image Name="4_01.png" />
+          <Image Name="4_02.png" />
+          <Image Name="5.png" />
+          <Image Name="5_01.png" />
+          <Image Name="5_02.png" />
+          <Image Name="6.png" />
+          <Image Name="6_01.PNG" />
+          <Image Name="6_02.PNG" />
+          <Image Name="7.png" />
+          <Image Name="7_01.PNG" />
+          <Image Name="7_02.PNG" />
+          <Image Name="8.png" />
+          <Image Name="8_1.PNG" />
+          <Image Name="8_2.png" />
+          <Image Name="b1.png" />
+          <Image Name="b2.png" />
+          <Image Name="12.PNG" />
+          <Image Name="231.PNG" />
+        </Folder>
+        <Project Name="StudyScene.csd" Type="Scene" />
+        <Folder Name="Background">
+          <Image Name="MainScene.PNG" />
+          <Image Name="StudyScene1.png" />
+          <Image Name="StudyScene.jpg" />
+          <Image Name="EnglishExamScene01.jpg" />
+          <Image Name="ExamScene.jpg" />
+          <Image Name="ATA96N42YO73.jpg" />
+          <Image Name="1329205953-0.png" />
+        </Folder>
+        <Folder Name="Paoku">
+          <Image Name="paoku 00188.png" />
+          <Image Name="paoku 00189.png" />
+          <Image Name="paoku 00190.png" />
+          <Image Name="paoku 00191.png" />
+          <Image Name="paoku 00192.png" />
+          <Image Name="paoku 00193.png" />
+          <Image Name="paoku 00194.png" />
+          <Image Name="paoku 00195.png" />
+          <Image Name="paoku 00196.png" />
+          <Image Name="paoku 00197.png" />
+          <Image Name="paoku 00198.png" />
+          <Image Name="paoku 00199.png" />
+        </Folder>
+        <Folder Name="EnglishExam">
+          <Image Name="EnglishExam01.PNG" />
+          <Image Name="3_01.PNG" />
+          <Image Name="3_01_01.PNG" />
+          <Image Name="3_01_02.PNG" />
+          <Image Name="3_02.PNG" />
+          <Image Name="3_03.png" />
+          <Image Name="3_04.PNG" />
+          <Image Name="3_05.png" />
+          <Image Name="3_06.PNG" />
+          <Image Name="3_07.PNG" />
+          <Image Name="3_08.png" />
+          <Image Name="lock.png" />
+          <Image Name="unlock.png" />
+          <Image Name="Crystal_Clear_action_lock.png" />
+          <Image Name="CardBlue.png" />
+          <Image Name="CardYellow.png" />
+        </Folder>
+        <Project Name="ExamScene.csd" Type="Scene" />
+        <Folder Name="TileMaps" />
+        <Project Name="MainScene_Chinese.csd" Type="Scene" />
+        <Folder Name="Images">
+          <Image Name="snow.png" />
+          <Image Name="stars.png" />
+        </Folder>
+        <Project Name="ExaminationPaperScene.csd" Type="Scene" />
+        <Folder Name="fonts">
+          <TTF Name="FontKaTong.ttf" />
+          <TTF Name="Marker Felt.ttf" />
+          <TTF Name="MONACO.TTF" />
+          <TTF Name="Schwarzwald.ttf" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
