@@ -88,7 +88,7 @@ void Loading::loadResources()
 void Loading::loadingCallBack(cocos2d::Texture2D *texture)
 {
     numberOfLoadedRes++;
-	Sleep(50);
+//	Sleep(50);
 }
 //更新UI
 void Loading::logic(float dt)
