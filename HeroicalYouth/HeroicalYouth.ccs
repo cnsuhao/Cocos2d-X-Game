@@ -1,0 +1,144 @@
+<Solution>
+  <PropertyGroup Name="HeroicalYouth" Version="2.3.1.2" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="loadingScene.csd" Type="Scene" />
+        <Folder Name="fonts">
+          <Fnt Name="bitmapFontChinese.fnt" />
+          <Fnt Name="boundsTestFont.fnt" />
+          <TTF Name="MONACO.TTF" />
+          <TTF Name="FontKaTong.ttf" />
+        </Folder>
+        <Project Name="ui_loading_1.csd" Type="Node" />
+        <Project Name="gameMenuScene.csd" Type="Scene" />
+        <Project Name="ui_gameMenu_1.csd" Type="Node" />
+        <Project Name="levelSelectScene.csd" Type="Scene" />
+        <Project Name="ui_levelSelect_1.csd" Type="Node" />
+        <Project Name="levelInfoScene.csd" Type="Scene" />
+        <Project Name="ui_LevelInfo_backimg.csd" Type="Node" />
+        <Project Name="ui_levelInfo_frontDlg.csd" Type="Node" />
+        <Folder Name="sound">
+          <Audio Name="button.wav" />
+          <Audio Name="comeout.wav" />
+          <Audio Name="dead.mp3" />
+          <Audio Name="dead.wav" />
+          <Audio Name="dead1.wav" />
+          <Audio Name="enemy0_down.mp3" />
+          <Audio Name="game_music.mp3" />
+          <Audio Name="music.mp3" />
+          <Audio Name="shoot.wav" />
+          <Audio Name="tip.wav" />
+          <Audio Name="use_bomb.mp3" />
+        </Folder>
+        <Folder Name="img">
+          <PlistParticleFile Name="snow.plist" />
+          <PlistImageFolder Image="PlayResource.png" PListFile="PlayResource.plist" Name=".PlayResource_PList.Dir">
+            <PlistImageFile Name="ArrowTower1.png" Key="ArrowTower1.png" />
+            <PlistImageFile Name="AttackTower1.png" Key="AttackTower1.png" />
+            <PlistImageFile Name="MultiDirTower1.png" Key="MultiDirTower1.png" />
+            <PlistImageFile Name="arrow.png" Key="arrow.png" />
+            <PlistImageFile Name="arrowBullet.png" Key="arrowBullet.png" />
+            <PlistImageFile Name="arrowBullet1.png" Key="arrowBullet1.png" />
+            <PlistImageFile Name="attackTower.png" Key="attackTower.png" />
+            <PlistImageFile Name="baseplate.png" Key="baseplate.png" />
+            <PlistImageFile Name="btnBack.png" Key="btnBack.png" />
+            <PlistImageFile Name="btnNext.png" Key="btnNext.png" />
+            <PlistImageFile Name="btnStart.png" Key="btnStart.png" />
+            <PlistImageFile Name="bullet.png" Key="bullet.png" />
+            <PlistImageFile Name="bullet1.png" Key="bullet1.png" />
+            <PlistImageFile Name="enemyLeft1_1.png" Key="enemyLeft1_1.png" />
+            <PlistImageFile Name="enemyLeft1_2.png" Key="enemyLeft1_2.png" />
+            <PlistImageFile Name="enemyLeft1_3.png" Key="enemyLeft1_3.png" />
+            <PlistImageFile Name="enemyLeft1_4.png" Key="enemyLeft1_4.png" />
+            <PlistImageFile Name="enemyLeft2_1.png" Key="enemyLeft2_1.png" />
+            <PlistImageFile Name="enemyLeft2_2.png" Key="enemyLeft2_2.png" />
+            <PlistImageFile Name="enemyLeft2_3.png" Key="enemyLeft2_3.png" />
+            <PlistImageFile Name="enemyLeft2_4.png" Key="enemyLeft2_4.png" />
+            <PlistImageFile Name="enemyLeft3_1.png" Key="enemyLeft3_1.png" />
+            <PlistImageFile Name="enemyLeft3_2.png" Key="enemyLeft3_2.png" />
+            <PlistImageFile Name="enemyLeft3_3.png" Key="enemyLeft3_3.png" />
+            <PlistImageFile Name="enemyLeft3_4.png" Key="enemyLeft3_4.png" />
+            <PlistImageFile Name="enemyRight1_1.png" Key="enemyRight1_1.png" />
+            <PlistImageFile Name="enemyRight1_2.png" Key="enemyRight1_2.png" />
+            <PlistImageFile Name="enemyRight1_3.png" Key="enemyRight1_3.png" />
+            <PlistImageFile Name="enemyRight1_4.png" Key="enemyRight1_4.png" />
+            <PlistImageFile Name="enemyRight2_1.png" Key="enemyRight2_1.png" />
+            <PlistImageFile Name="enemyRight2_2.png" Key="enemyRight2_2.png" />
+            <PlistImageFile Name="enemyRight2_3.png" Key="enemyRight2_3.png" />
+            <PlistImageFile Name="enemyRight2_4.png" Key="enemyRight2_4.png" />
+            <PlistImageFile Name="enemyRight3_1.png" Key="enemyRight3_1.png" />
+            <PlistImageFile Name="enemyRight3_2.png" Key="enemyRight3_2.png" />
+            <PlistImageFile Name="enemyRight3_3.png" Key="enemyRight3_3.png" />
+            <PlistImageFile Name="enemyRight3_4.png" Key="enemyRight3_4.png" />
+            <PlistImageFile Name="explode1_1.png" Key="explode1_1.png" />
+            <PlistImageFile Name="explode1_2.png" Key="explode1_2.png" />
+            <PlistImageFile Name="explode1_3.png" Key="explode1_3.png" />
+            <PlistImageFile Name="explode1_4.png" Key="explode1_4.png" />
+            <PlistImageFile Name="explode1_5.png" Key="explode1_5.png" />
+            <PlistImageFile Name="explode1_6.png" Key="explode1_6.png" />
+            <PlistImageFile Name="explode2_1.png" Key="explode2_1.png" />
+            <PlistImageFile Name="explode2_2.png" Key="explode2_2.png" />
+            <PlistImageFile Name="explode2_3.png" Key="explode2_3.png" />
+            <PlistImageFile Name="explode2_4.png" Key="explode2_4.png" />
+            <PlistImageFile Name="explode2_5.png" Key="explode2_5.png" />
+            <PlistImageFile Name="explode2_6.png" Key="explode2_6.png" />
+            <PlistImageFile Name="explode3_1.png" Key="explode3_1.png" />
+            <PlistImageFile Name="explode3_2.png" Key="explode3_2.png" />
+            <PlistImageFile Name="explode3_3.png" Key="explode3_3.png" />
+            <PlistImageFile Name="explode3_4.png" Key="explode3_4.png" />
+            <PlistImageFile Name="explode3_5.png" Key="explode3_5.png" />
+            <PlistImageFile Name="explode3_6.png" Key="explode3_6.png" />
+            <PlistImageFile Name="failedPanel.png" Key="failedPanel.png" />
+            <PlistImageFile Name="hp1.png" Key="hp1.png" />
+            <PlistImageFile Name="hpBg1.png" Key="hpBg1.png" />
+            <PlistImageFile Name="multiDirTower.png" Key="multiDirTower.png" />
+            <PlistImageFile Name="no.png" Key="no.png" />
+            <PlistImageFile Name="nomoney_mark.png" Key="nomoney_mark.png" />
+            <PlistImageFile Name="page_mark1.png" Key="page_mark1.png" />
+            <PlistImageFile Name="page_mark2.png" Key="page_mark2.png" />
+            <PlistImageFile Name="playbutton1.png" Key="playbutton1.png" />
+            <PlistImageFile Name="playbutton2.png" Key="playbutton2.png" />
+            <PlistImageFile Name="playhp.png" Key="playhp.png" />
+            <PlistImageFile Name="playstar.png" Key="playstar.png" />
+            <PlistImageFile Name="star.png" Key="star.png" />
+            <PlistImageFile Name="starbg.png" Key="starbg.png" />
+            <PlistImageFile Name="title.png" Key="title.png" />
+            <PlistImageFile Name="toolbg.png" Key="toolbg.png" />
+            <PlistImageFile Name="towerPos.png" Key="towerPos.png" />
+          </PlistImageFolder>
+          <PlistParticleFile Name="changjing.plist" />
+          <PlistParticleFile Name="button.plist" />
+          <Image Name="aboutGame_1.png" />
+          <Image Name="aboutGame_2.png" />
+          <Image Name="btn_back.png" />
+          <Image Name="btn_back_press.png" />
+          <Image Name="card_1.png" />
+          <Image Name="card_2.png" />
+          <Image Name="card_3.png" />
+          <Image Name="CloseNormal.png" />
+          <Image Name="CloseSelected.png" />
+          <Image Name="failedBg.jpg" />
+          <Image Name="gameSet_1.png" />
+          <Image Name="gameSet_2.png" />
+          <Image Name="House.png" />
+          <Image Name="LevelInfoPanel.png" />
+          <Image Name="load.png" />
+          <Image Name="loadBar.png" />
+          <Image Name="loadbg.png" />
+          <Image Name="particleTexture.png" />
+          <Image Name="playbg.png" />
+          <Image Name="playbg1.jpg" />
+          <Image Name="selectLevelBg.png" />
+          <Image Name="selectLevelBg1.png" />
+          <Image Name="selectLevelBg2.png" />
+          <Image Name="sliderProgress2.png" />
+          <Image Name="start_1.png" />
+          <Image Name="start_2.png" />
+          <Image Name="successfulBg.png" />
+          <Image Name="ui_load_name.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
