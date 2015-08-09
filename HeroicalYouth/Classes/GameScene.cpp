@@ -9,6 +9,7 @@
 #include "GameScene.h"
 #include "ui/cocosGUI.h"
 using namespace ui;
+
  GameScene * GameScene::GS=nullptr;
 Vector<Enemy*> GameScene::allEnemy;
 Vector<Bullet*> GameScene::allBullet;
