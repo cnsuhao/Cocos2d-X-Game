@@ -6,7 +6,7 @@
       <ObjectData Name="Node" Tag="90" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="RootPanel" ActionTag="-1695492529" Tag="95" IconVisible="False" RightMargin="-1136.0000" TopMargin="-640.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="200" RightEage="200" TopEage="100" BottomEage="100" Scale9OriginX="200" Scale9OriginY="100" Scale9Width="1134" Scale9Height="664" ctype="PanelObjectData">
+          <AbstractNodeData Name="RootPanel" ActionTag="-1695492529" Tag="95" IconVisible="False" RightMargin="-1136.0000" TopMargin="-640.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" LeftEage="200" RightEage="200" TopEage="100" BottomEage="100" Scale9OriginX="200" Scale9OriginY="100" Scale9Width="1134" Scale9Height="664" ctype="PanelObjectData">
             <Size X="1136.0000" Y="640.0000" />
             <Children>
               <AbstractNodeData Name="select_PageView" ActionTag="1759807059" Tag="92" IconVisible="False" LeftMargin="309.0000" RightMargin="227.0000" TopMargin="149.0800" BottomMargin="40.9200" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" TopEage="11" BottomEage="1" Scale9OriginY="-1" Scale9Width="1" Scale9Height="12" ScrollDirectionType="0" ctype="PageViewObjectData">
@@ -425,8 +425,8 @@
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
             </Children>
-            <AnchorPoint />
-            <Position />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="568.0000" Y="320.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />

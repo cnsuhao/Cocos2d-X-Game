@@ -6,13 +6,13 @@
       <ObjectData Name="Scene" Tag="33" ctype="GameNodeObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="ui_gameMenu_1" ActionTag="1530386870" Tag="116" IconVisible="True" LeftMargin="1.4534" RightMargin="1134.5466" TopMargin="640.1389" BottomMargin="-0.1389" InnerActionSpeed="0.8333" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="ui_gameMenu_1" ActionTag="1530386870" Tag="116" IconVisible="True" RightMargin="1136.0000" TopMargin="640.0000" InnerActionSpeed="0.8333" ctype="ProjectNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
-            <Position X="1.4534" Y="-0.1389" />
+            <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0013" Y="-0.0002" />
+            <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="ui_gameMenu_1.csd" Plist="" />
           </AbstractNodeData>

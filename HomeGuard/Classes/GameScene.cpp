@@ -85,8 +85,8 @@ void GameScene::initLevel(){
 	auto levelMap = TMXTiledMap::create(levelmap["mapfile"].asString());
 	levelMap->setTag(1000);
 	levelMap->setAnchorPoint(Vec2(0.5,0.5));
-	levelMap->setPosition(Director::getInstance()->getWinSize().width/2,
-                     Director::getInstance()->getWinSize().height/2);
+	levelMap->setPosition(Director::getInstance()->getVisibleSize().width/2,
+                     Director::getInstance()->getVisibleSize().height/2);
 	
 	addChild(levelMap);
     
@@ -142,16 +142,14 @@ void GameScene::newEnemy(float t){
     }
     
     auto newEnemy=Enemy::createEnemy(type, allPoint);
-    getChildByTag(1000)->addChild(newEnemy,1);
+    /*getChildByTag(1000)->*/addChild(newEnemy,1);
     allEnemy.pushBack(newEnemy);
 }
 
 bool GameScene::onTouchBegan(Touch *touch, Event *unused_event){
 
-	CCLOG("******************getLocation %f,%f", touch->getLocation().x, touch->getLocation().y);
-	CCLOG("******************getLocationInView %f,%f", touch->getLocationInView().x, touch->getLocationInView().y);
 	//得到用户点击这个点所在地图的行列
-	int r=touch->getLocation().y/71;
+	int r=9 - touch->getLocation().y/71;
     int c=touch->getLocation().x/71;
     auto map=(TMXTiledMap *)this->getChildByTag(1000);
     int gid=map->getLayer("bg")->getTileGIDAt(Vec2(c,r));
@@ -245,7 +243,7 @@ void GameScene::addTDselect(int r,int c){
     Image->addChild(menuTD);
 
     Image->setTag(1001);
-    getChildByTag(1000)->addChild(Image,2);
+    /*getChildByTag(1000)->*/addChild(Image,2);
     Image->setAnchorPoint(Vec2(0,0));
     Image->setPosition(c*71,r*71);
 //    Image->runAction(Sequence::create(DelayTime::create(5.0f),
@@ -295,9 +293,9 @@ void GameScene::selectTD(Ref * obj)
     }
     CCLOG("您选中了%d",item->getTag());
     //移除旧的塔的选择
-    if(this->getChildByTag(1000)->getChildByTag(1001)!=nullptr)
+    if(/*this->getChildByTag(1000)->*/getChildByTag(1001)!=nullptr)
     {
-        this->getChildByTag(1000)->getChildByTag(1001)->removeFromParentAndCleanup(true);
+        /*this->getChildByTag(1000)->*/getChildByTag(1001)->removeFromParentAndCleanup(true);
     }
 //    tdState=0;
     
@@ -419,6 +417,7 @@ void GameScene::initToolBar(){
     Menu* pMenu = Menu::create(pPauseItem, NULL);
     pMenu->setPosition(Point::ZERO);
     spritetool->addChild(pMenu);
+	spritetool->setOpacity(150);
 }
 
 void GameScene::changeHp(int h)

@@ -16,8 +16,7 @@
         <Project Name="levelSelectScene.csd" Type="Scene" />
         <Project Name="ui_levelSelect_1.csd" Type="Node" />
         <Project Name="levelInfoScene.csd" Type="Scene" />
-        <Project Name="ui_LevelInfo_backimg.csd" Type="Node" />
-        <Project Name="ui_levelInfo_frontDlg.csd" Type="Node" />
+        <Project Name="ui_levelInfo_1.csd" Type="Node" />
         <Folder Name="sound">
           <Audio Name="button.wav" />
           <Audio Name="comeout.wav" />
