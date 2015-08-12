@@ -31,7 +31,7 @@ bool  LevelInfo::init(){
 		Director::getInstance()->getWinSize().height / 2);
 	addChild(node);
 
-	auto load_ui = node->getChildByName("ui_levelInfo_dlg");
+	auto load_ui = node->getChildByName("ui_levelInfo_1");
 
 	auto startBtn = (Button*)load_ui->getChildByName("RootPanel")->getChildByName("start");
 	startBtn->addTouchEventListener([](Ref* sender, Widget::TouchEventType eType) {

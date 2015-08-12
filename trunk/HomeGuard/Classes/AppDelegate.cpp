@@ -40,7 +40,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-#if 1
+#if 0
        glview = GLViewImpl::create("My Game");
 	   director->setOpenGLView(glview);
 	   glview->setFrameSize(1280, 720);
@@ -48,6 +48,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 		glview = GLViewImpl::createWithRect("HeroicalYouth", Rect(0, 0, 1136, 640));
 		director->setOpenGLView(glview);
 		glview->setDesignResolutionSize(1136, 640, ResolutionPolicy::FIXED_HEIGHT);
+
 #endif
     }
 
@@ -56,7 +57,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
-#if 1
+#if 0
     // Set the design resolution
     glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
     Size frameSize = glview->getFrameSize();
@@ -77,7 +78,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
 #else
 	//从资源图片到设计尺寸的适配比例
-	director->setContentScaleFactor(864.0f / 640.0f);
+
+	Size frameSize = glview->getFrameSize();
+	//director->setContentScaleFactor(864.0f / 640.0);
+	director->setContentScaleFactor(frameSize.height / 640);
+
 #endif
 	// 添加资源搜索路径
 	auto fileUtils = FileUtils::getInstance();
