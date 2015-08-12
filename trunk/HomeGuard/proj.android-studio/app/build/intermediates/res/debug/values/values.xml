@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Develop/Cocos2d-X-Game/trunk/HomeGuard/proj.android-studio/app/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">HelloCpp</string>
+</resources>
