@@ -15,7 +15,7 @@
  </tileset>
  <layer name="bg" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJyNj8kKgDAMROtCweXmoTlZFD24/f/vOUICIa1o4EEzydCJd2lNYAae+6i0qPZkXoEaDDzfwA4WsBptZF9U/g70oAAlIHCAE1zcBwVlMj9aA1p+k9qVt//wy0xuDS79N6h73/xyKxkG3pF7c/4/vOXXSEark/F7l69cRluP9wZQEQkH
+   eJyNz1sLwjAMhuHqJKATFHbRXE08XXj6/3/Pd5APStehgQfapKGJpXkccITF/YQzLnFWqN5hgyHqI6644R65B55Rs8ipv8ceK6zheOGNT9xzwRszT7ktdnH24q3O9qNfNe2a0/zfXOy71K9dvTLEG+3b6v/H0vwlzVjnveq31I7WjHVMvV/fngjR
   </data>
  </layer>
  <objectgroup name="obj">

@@ -46,8 +46,14 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	   glview->setFrameSize(1280, 720);
 #else
 		glview = GLViewImpl::createWithRect("HeroicalYouth", Rect(0, 0, 1136, 640));
+		//glview = GLViewImpl::create("My Game");
+
 		director->setOpenGLView(glview);
+		Size frameSize = glview->getFrameSize();
+
+	//	glview->setDesignResolutionSize(1136, 640, ResolutionPolicy::FIXED_HEIGHT);
 		glview->setDesignResolutionSize(1136, 640, ResolutionPolicy::FIXED_HEIGHT);
+
 
 #endif
     }
@@ -80,8 +86,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//从资源图片到设计尺寸的适配比例
 
 	Size frameSize = glview->getFrameSize();
-	//director->setContentScaleFactor(864.0f / 640.0);
-	director->setContentScaleFactor(frameSize.height / 640);
+	//director->setContentScaleFactor(1534.0f / 1136.0);
+	director->setContentScaleFactor(864.0 / 640.0);
 
 #endif
 	// 添加资源搜索路径
