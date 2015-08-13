@@ -12,7 +12,7 @@
             <Position Y="0.0024" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition Y="0.0000" />
+            <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="ui_levelSelect_1.csd" Plist="" />
           </AbstractNodeData>
